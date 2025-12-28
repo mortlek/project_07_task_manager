@@ -4,7 +4,7 @@ import os
 import json
 
 from storage import save_state, load_state, backup_state
-from tasks import create_task, filter_tasks, validate_task_schema  # validate_task_schema is in storage, not tasks
+from tasks import create_task, filter_tasks
 
 
 def test_create_task_required_fields(tmp_path):
